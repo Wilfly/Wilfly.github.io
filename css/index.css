@@ -1,0 +1,63 @@
+/*Barra de Navegación*/
+
+nav{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    z-index: 10000;
+}
+
+#navbar {
+    position: fixed;
+    transition: top 0.5s !important;
+}
+
+#navbar img{
+    vertical-align: sub;
+    height: 7vh;
+}
+
+.fondon{
+    background: linear-gradient(135deg, #73bcf7 0%, #004277 50%,#0a0809 52%, #2a2226 100%);
+}
+
+/*Boton Fixed*/
+
+.boton-desplegable {
+    position: relative !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/*Header*/
+
+#header{
+    background: url('../img/Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header img{
+    height: 50vh;
+    width: 40vw;
+}
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #73bcf7 0%, #004277 50%,#0a0809 52%, #2a2226 100%);
+}
+
+.transparancia{
+    opacity: 0.9;
+}
+
+.header-contenedor {
+    position: relative;
+    height: 100vh !important;
+}
+
+body {
+    height: 2000px;
+}
