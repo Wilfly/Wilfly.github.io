@@ -2,10 +2,6 @@
  $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.fixed-action-btn').floatingActionButton();
-    $('.fixed-action-btn').floatingActionButton({
-        direction: 'bottom',
-        hoverEnabled: false
-      });
   });
 
 let ubicacionPrincipal = window.pageYOffset;
